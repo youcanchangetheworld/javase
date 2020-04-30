@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e52ca924-fb1b-4edf-9393-f3e312c7af89" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Spring-Boot-In-Action-master.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/id-spring-boot-starter/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/id-spring-boot-starter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/id-spring-boot-starter/src/main/java/com/baidu/fsg/uid/BitsAllocator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/id-spring-boot-starter/src/main/java/com/baidu/fsg/uid/UidGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/id-spring-boot-starter/src/main/java/com/baidu/fsg/uid/buffer/BufferPaddingExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/id-spring-boot-starter/src/main/java/com/baidu/fsg/uid/buffer/BufferedUidProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/id-spring-boot-starter/src/main/java/com/baidu/fsg/uid/buffer/RejectedPutBufferHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/id-spring-boot-starter/src/main/java/com/baidu/fsg/uid/buffer/RejectedTakeBufferHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/id-spring-boot-starter/src/main/java/com/baidu/fsg/uid/buffer/RingBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/id-spring-boot-starter/src/main/java/com/baidu/fsg/uid/config/UIDConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/id-spring-boot-starter/src/main/java/com/baidu/fsg/uid/exception/UidGenerateException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/id-spring-boot-starter/src/main/java/com/baidu/fsg/uid/impl/CachedUidGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/id-spring-boot-starter/src/main/java/com/baidu/fsg/uid/impl/DefaultUidGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/id-spring-boot-starter/src/main/java/com/baidu/fsg/uid/service/UidGenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/id-spring-boot-starter/src/main/java/com/baidu/fsg/uid/utils/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/id-spring-boot-starter/src/main/java/com/baidu/fsg/uid/utils/DockerUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/id-spring-boot-starter/src/main/java/com/baidu/fsg/uid/utils/EnumUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/id-spring-boot-starter/src/main/java/com/baidu/fsg/uid/utils/NamingThreadFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/id-spring-boot-starter/src/main/java/com/baidu/fsg/uid/utils/NetUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/id-spring-boot-starter/src/main/java/com/baidu/fsg/uid/utils/PaddedAtomicLong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/id-spring-boot-starter/src/main/java/com/baidu/fsg/uid/utils/ValuedEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/id-spring-boot-starter/src/main/java/com/baidu/fsg/uid/worker/DisposableWorkerIdAssigner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/id-spring-boot-starter/src/main/java/com/baidu/fsg/uid/worker/WorkerIdAssigner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/id-spring-boot-starter/src/main/java/com/baidu/fsg/uid/worker/WorkerNodeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/id-spring-boot-starter/src/main/java/com/baidu/fsg/uid/worker/dao/WorkerNodeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/id-spring-boot-starter/src/main/java/com/baidu/fsg/uid/worker/entity/WorkerNodeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/id-spring-boot-starter/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/id-spring-boot-starter/src/main/resources/config/cached-uid-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/id-spring-boot-starter/src/main/resources/mapper/WORKER_NODE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin_with_springbt/.gradle/6.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin_with_springbt/.gradle/6.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin_with_springbt/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin_with_springbt/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin_with_springbt/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin_with_springbt/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin_with_springbt/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin_with_springbt/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin_with_springbt/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin_with_springbt/build/kotlin-build/caches/version.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin_with_springbt/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin_with_springbt/src/main/kotlin/com/hansonwang99/kotlin/Application.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin_with_springbt/src/main/kotlin/com/hansonwang99/kotlin/controller/PeopleController.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin_with_springbt/src/main/kotlin/com/hansonwang99/kotlin/entity/People.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin_with_springbt/src/main/kotlin/com/hansonwang99/kotlin/repository/PeopleRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin_with_springbt/src/main/kotlin/com/hansonwang99/kotlin/service/PeopleService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin_with_springbt/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_boot_admin2.0_demo/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_boot_admin2.0_demo/sba_client_2_0/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_boot_admin2.0_demo/sba_client_2_0/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_boot_admin2.0_demo/sba_client_2_0/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_boot_admin2.0_demo/sba_client_2_0/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_boot_admin2.0_demo/sba_client_2_0/src/main/java/cn/codesheep/sba_client_2_0/SbaClient20Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_boot_admin2.0_demo/sba_client_2_0/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_boot_admin2.0_demo/sba_client_2_0/src/test/java/cn/codesheep/sba_client_2_0/SbaClient20ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_boot_admin2.0_demo/sba_server_2_0/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_boot_admin2.0_demo/sba_server_2_0/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_boot_admin2.0_demo/sba_server_2_0/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_boot_admin2.0_demo/sba_server_2_0/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_boot_admin2.0_demo/sba_server_2_0/src/main/java/cn/codesheep/sba_server_2_0/SbaServer20Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_boot_admin2.0_demo/sba_server_2_0/src/main/resources/application-secure.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_boot_admin2.0_demo/sba_server_2_0/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring_boot_admin2.0_demo/sba_server_2_0/src/test/java/cn/codesheep/sba_server_2_0/SbaServer20ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_es_demo/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_es_demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_es_demo/src/main/java/com/hansonwang99/springboot_es_demo/SpringbootEsDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_es_demo/src/main/java/com/hansonwang99/springboot_es_demo/controller/EntityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_es_demo/src/main/java/com/hansonwang99/springboot_es_demo/entity/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_es_demo/src/main/java/com/hansonwang99/springboot_es_demo/service/TestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_es_demo/src/main/java/com/hansonwang99/springboot_es_demo/service/impl/TestServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_es_demo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_es_demo/src/test/java/com/hansonwang99/springboot_es_demo/SpringbootEsDemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_admin_server/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_admin_server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_admin_server/src/main/java/com/hansonwang99/SpringbtAdminServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_admin_server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_admin_server/src/test/java/com/hansonwang99/SpringbtAdminServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_ehcache/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_ehcache/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_ehcache/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_ehcache/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_ehcache/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_ehcache/src/main/java/cn/codesheep/springbt_ehcache/SpringbtEhcacheApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_ehcache/src/main/java/cn/codesheep/springbt_ehcache/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_ehcache/src/main/java/cn/codesheep/springbt_ehcache/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_ehcache/src/main/java/cn/codesheep/springbt_ehcache/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_ehcache/src/main/java/cn/codesheep/springbt_ehcache/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_ehcache/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_ehcache/src/main/resources/ehcache.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_ehcache/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_ehcache/src/test/java/cn/codesheep/springbt_ehcache/SpringbtEhcacheApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_evcache/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_evcache/evcache-client-4.137.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_evcache/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_evcache/src/main/java/cn/codesheep/springbt_evcache/SpringbtEvcacheApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_evcache/src/main/java/cn/codesheep/springbt_evcache/config/EVCacheClientSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_evcache/src/main/java/cn/codesheep/springbt_evcache/config/EVCacheConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_evcache/src/main/java/cn/codesheep/springbt_evcache/controller/EVCacheTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_evcache/src/main/java/cn/codesheep/springbt_evcache/service/EVCacheService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_evcache/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_evcache/src/test/java/cn/codesheep/springbt_evcache/SpringbtEvcacheApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_guava_cache/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_guava_cache/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_guava_cache/src/main/java/cn/codesheep/springbt_guava_cache/SpringbtGuavaCacheApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_guava_cache/src/main/java/cn/codesheep/springbt_guava_cache/config/GuavaCacheConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_guava_cache/src/main/java/cn/codesheep/springbt_guava_cache/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_guava_cache/src/main/java/cn/codesheep/springbt_guava_cache/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_guava_cache/src/main/java/cn/codesheep/springbt_guava_cache/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_guava_cache/src/main/java/cn/codesheep/springbt_guava_cache/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_guava_cache/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_guava_cache/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_guava_cache/src/test/java/cn/codesheep/springbt_guava_cache/SpringbtGuavaCacheApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_mybatis_sqlserver/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_mybatis_sqlserver/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_mybatis_sqlserver/src/main/java/cn/codesheep/springbt_mybatis_sqlserver/SpringbtMybatisSqlserverApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_mybatis_sqlserver/src/main/java/cn/codesheep/springbt_mybatis_sqlserver/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_mybatis_sqlserver/src/main/java/cn/codesheep/springbt_mybatis_sqlserver/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_mybatis_sqlserver/src/main/java/cn/codesheep/springbt_mybatis_sqlserver/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_mybatis_sqlserver/src/main/java/cn/codesheep/springbt_mybatis_sqlserver/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_mybatis_sqlserver/src/main/java/cn/codesheep/springbt_mybatis_sqlserver/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_mybatis_sqlserver/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_mybatis_sqlserver/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_mybatis_sqlserver/src/test/java/cn/codesheep/springbt_mybatis_sqlserver/SpringbtMybatisSqlserverApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_security_jwt/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_security_jwt/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_security_jwt/src/main/java/cn/codesheep/springbt_security_jwt/SpringbtSecurityJwtApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_security_jwt/src/main/java/cn/codesheep/springbt_security_jwt/comm/Const.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_security_jwt/src/main/java/cn/codesheep/springbt_security_jwt/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_security_jwt/src/main/java/cn/codesheep/springbt_security_jwt/controller/JwtAuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_security_jwt/src/main/java/cn/codesheep/springbt_security_jwt/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_security_jwt/src/main/java/cn/codesheep/springbt_security_jwt/filter/JwtTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_security_jwt/src/main/java/cn/codesheep/springbt_security_jwt/model/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_security_jwt/src/main/java/cn/codesheep/springbt_security_jwt/model/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_security_jwt/src/main/java/cn/codesheep/springbt_security_jwt/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_security_jwt/src/main/java/cn/codesheep/springbt_security_jwt/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_security_jwt/src/main/java/cn/codesheep/springbt_security_jwt/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_security_jwt/src/main/java/cn/codesheep/springbt_security_jwt/service/impl/AuthServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_security_jwt/src/main/java/cn/codesheep/springbt_security_jwt/util/JwtTokenUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_security_jwt/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_security_jwt/src/test/java/cn/codesheep/springbt_security_jwt/SpringbtSecurityJwtApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_sso_jwt/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_sso_jwt/codesheep-client1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_sso_jwt/codesheep-client1/src/main/java/cn/codesheep/Client1Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_sso_jwt/codesheep-client1/src/main/java/cn/codesheep/config/ClientWebsecurityConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_sso_jwt/codesheep-client1/src/main/java/cn/codesheep/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_sso_jwt/codesheep-client1/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_sso_jwt/codesheep-client2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_sso_jwt/codesheep-client2/src/main/java/cn/codesheep/Client2Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_sso_jwt/codesheep-client2/src/main/java/cn/codesheep/config/ClientWebsecurityConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_sso_jwt/codesheep-client2/src/main/java/cn/codesheep/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_sso_jwt/codesheep-client2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_sso_jwt/codesheep-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_sso_jwt/codesheep-server/src/main/java/cn/codesheep/ServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_sso_jwt/codesheep-server/src/main/java/cn/codesheep/config/AuthorizationServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_sso_jwt/codesheep-server/src/main/java/cn/codesheep/config/SpringSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_sso_jwt/codesheep-server/src/main/java/cn/codesheep/service/SheepUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_sso_jwt/codesheep-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_sso_jwt/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_uid_generator/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_uid_generator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_uid_generator/uid-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_uid_generator/uid-consumer/src/main/java/cn/codesheep/UidConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_uid_generator/uid-consumer/src/main/java/cn/codesheep/config/UidConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_uid_generator/uid-consumer/src/main/java/cn/codesheep/controller/UidTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_uid_generator/uid-consumer/src/main/java/cn/codesheep/service/UidGenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_uid_generator/uid-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_uid_generator/uid-consumer/src/main/resources/mapper/WORKER_NODE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_uid_generator/uid-consumer/src/main/resources/uid/cached-uid-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_uid_generator/uid-generator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_uid_generator/uid-generator/src/main/java/com/baidu/fsg/uid/BitsAllocator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_uid_generator/uid-generator/src/main/java/com/baidu/fsg/uid/UidGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_uid_generator/uid-generator/src/main/java/com/baidu/fsg/uid/buffer/BufferPaddingExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_uid_generator/uid-generator/src/main/java/com/baidu/fsg/uid/buffer/BufferedUidProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_uid_generator/uid-generator/src/main/java/com/baidu/fsg/uid/buffer/RejectedPutBufferHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_uid_generator/uid-generator/src/main/java/com/baidu/fsg/uid/buffer/RejectedTakeBufferHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_uid_generator/uid-generator/src/main/java/com/baidu/fsg/uid/buffer/RingBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_uid_generator/uid-generator/src/main/java/com/baidu/fsg/uid/exception/UidGenerateException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_uid_generator/uid-generator/src/main/java/com/baidu/fsg/uid/impl/CachedUidGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_uid_generator/uid-generator/src/main/java/com/baidu/fsg/uid/impl/DefaultUidGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_uid_generator/uid-generator/src/main/java/com/baidu/fsg/uid/utils/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_uid_generator/uid-generator/src/main/java/com/baidu/fsg/uid/utils/DockerUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_uid_generator/uid-generator/src/main/java/com/baidu/fsg/uid/utils/EnumUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_uid_generator/uid-generator/src/main/java/com/baidu/fsg/uid/utils/NamingThreadFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_uid_generator/uid-generator/src/main/java/com/baidu/fsg/uid/utils/NetUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_uid_generator/uid-generator/src/main/java/com/baidu/fsg/uid/utils/PaddedAtomicLong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_uid_generator/uid-generator/src/main/java/com/baidu/fsg/uid/utils/ValuedEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_uid_generator/uid-generator/src/main/java/com/baidu/fsg/uid/worker/DisposableWorkerIdAssigner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_uid_generator/uid-generator/src/main/java/com/baidu/fsg/uid/worker/WorkerIdAssigner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_uid_generator/uid-generator/src/main/java/com/baidu/fsg/uid/worker/WorkerNodeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_uid_generator/uid-generator/src/main/java/com/baidu/fsg/uid/worker/dao/WorkerNodeDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_uid_generator/uid-generator/src/main/java/com/baidu/fsg/uid/worker/entity/WorkerNodeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_uid_generator/uid-generator/src/main/resources/META-INF/mybatis/mapper/WORKER_NODE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_uid_generator/uid-generator/src/main/scripts/WORKER_NODE.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_uid_generator/uid-generator/src/test/java/com/baidu/fsg/uid/CachedUidGeneratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_uid_generator/uid-generator/src/test/java/com/baidu/fsg/uid/DefaultUidGeneratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_uid_generator/uid-generator/src/test/resources/uid/cached-uid-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_uid_generator/uid-generator/src/test/resources/uid/default-uid-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_uid_generator/uid-generator/src/test/resources/uid/mybatis-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_uid_generator/uid-generator/src/test/resources/uid/mysql.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_vesta/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_vesta/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_vesta/src/main/java/cn/codesheep/springbt_vesta/SpringbtVestaApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_vesta/src/main/java/cn/codesheep/springbt_vesta/config/UidConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_vesta/src/main/java/cn/codesheep/springbt_vesta/controller/UidController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_vesta/src/main/java/cn/codesheep/springbt_vesta/service/UidService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_vesta/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_vesta/src/main/resources/ext/vesta/vesta-rest-main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_vesta/src/main/resources/ext/vesta/vesta-rest.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_vesta/src/test/java/cn/codesheep/springbt_vesta/SpringbtVestaApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_vesta/vesta-intf-0.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_vesta/vesta-service-0.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_watermark/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_watermark/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_watermark/src/main/java/cn/codesheep/springbt_watermark/SpringbtWatermarkApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_watermark/src/main/java/cn/codesheep/springbt_watermark/comm/Const.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_watermark/src/main/java/cn/codesheep/springbt_watermark/controller/WatermarkController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_watermark/src/main/java/cn/codesheep/springbt_watermark/model/dto/ImageInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_watermark/src/main/java/cn/codesheep/springbt_watermark/service/ImageUploadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_watermark/src/main/java/cn/codesheep/springbt_watermark/service/WatermarkService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_watermark/src/main/java/cn/codesheep/springbt_watermark/service/impl/ImgWatermarkServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_watermark/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_watermark/src/main/resources/static/images/codesheep_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springbt_watermark/src/test/java/cn/codesheep/springbt_watermark/SpringbtWatermarkApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-id-spring-boot-starter/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-id-spring-boot-starter/id-spring-boot-starter-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-id-spring-boot-starter/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-id-spring-boot-starter/src/main/java/cn/codesheep/testidspringbootstarter/TestIdSpringBootStarterApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-id-spring-boot-starter/src/main/java/cn/codesheep/testidspringbootstarter/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-id-spring-boot-starter/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-id-spring-boot-starter/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-id-spring-boot-starter/src/test/java/cn/codesheep/testidspringbootstarter/TestIdSpringBootStarterApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/kotlin_with_springbt">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1aw9MKWaTcOgdeK5uPy8D2TMzJY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../JetBrains_workspace/java进阶新版/代码/javase" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e52ca924-fb1b-4edf-9393-f3e312c7af89" name="Default Changelist" comment="" />
+      <created>1587635740027</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587635740027</updated>
+      <workItem from="1587635742563" duration="5138000" />
+      <workItem from="1587643799420" duration="247000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1587644014745">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587644014745" />
+  </component>
+</project>
